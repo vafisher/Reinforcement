@@ -1,0 +1,13 @@
+name = "Reinforcement"
+uuid = "56e28f5e-c384-49cb-9149-f6b4c0f1d381"
+authors = ["vafisher"]
+version = "0.1.0"
+
+[deps]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]

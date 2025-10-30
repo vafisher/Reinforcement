@@ -1,5 +1,4 @@
 using Documenter
-import Pkg; Pkg.add("Reinforcement")
 using Reinforcement
 
 makedocs(;
@@ -10,7 +9,8 @@ makedocs(;
     format=Documenter.HTML()
 )
 
-deploydocs(;
-    repo="github.com/vafisher/Reinforcement.jl",
-    devbranch="main"
-)
+if haskey(ENV, "GITHUB_ACTIONS")
+    deploydocs(;
+        repo="github.com/vafisher/Reinforcement.jl",
+        devbranch="main")
+end

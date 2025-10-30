@@ -1,6 +1,5 @@
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
-Reinforcement = "4842b49f-3b88-4574-91f0-8368c8c07173"
 
 [compat]
 Documenter = "1"
